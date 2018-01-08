@@ -232,7 +232,7 @@ abstract class AbstractRequest
      * @access public
      * @param  int  $width
      * @param  int  $height
-     * @return void
+     * @return \JonnyW\PhantomJs\Http\CaptureRequest
      */
     public function setViewportSize($width, $height)
     {
